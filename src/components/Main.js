@@ -13,9 +13,9 @@ const Main = () => (
         <div className="decoration"></div>
       </div>
 
-      A system audio equalizer specifically designed for Android and iOS. Freely tune the 
+      <p>A system audio equalizer specifically designed for Android and iOS. Freely tune the 
       way your music sounds with a professional grade parametric EQ & volume mixer. Control 
-      bass, mids, treble, gain control, reverb, and more!
+      bass, mids, treble, gain control, reverb, and more!</p>
     </div>
 
     <div className="offer inline">
@@ -27,10 +27,10 @@ const Main = () => (
         <p>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
         your listening experience to a whole new level and access all our incredible features!</p>
 
-        <p className="inline"><h1>$4</h1><p> / month</p></p>
+        <p className="inline"><span className="bold">$4</span><span className="time"> / month</span></p>
 
-        <p className="button inline ios"><img src={ios} alt="iOS icon" /><p>iOS Download</p></p>
-        <p className="button inline android"><img src={android} alt="Android icon" /><p>Android Download</p></p>
+        <div className="button inline ios"><img src={ios} alt="iOS icon" /><p>iOS Download</p></div>
+        <div className="button inline android"><img src={android} alt="Android icon" /><p>Android Download</p></div>
       </div>
     </div>
   </main>

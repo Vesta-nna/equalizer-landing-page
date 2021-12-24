@@ -3,12 +3,20 @@
 footer {
   font-size: 16px;
   line-height: 26px;
-  padding: 5em 0;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-
+  @media screen and (min-width: 1024px) {
+    padding: 15em 0 5em 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 30em 0 5em 0;
+  }
   .support {
-    width: 400px;
+    max-width: 400px;
+
+    @media screen and (max-width: 1024px) {
+      padding: 2em 0 3em 0;
+    }
   }
 
   .socials {
@@ -17,9 +25,17 @@ footer {
     align-items: flex-end;
     align-self: start;
 
+    @media screen and (max-width: 1024px) {
+      justify-content: flex-start;
+      padding-bottom: 4em;
+    }
+
     * {
       width: 24px;
       height: 24px;
+      @media screen and (max-width: 1024px) {
+        margin-right: 2em;
+      }
       cursor: pointer;
       background-color: $black;
       &:hover {

@@ -4,12 +4,19 @@
 body {
   font: 20px/34px 'IBM Plex Sans';
   font-weight: 300;
-  background-color: $white;
-  background: -15em -15em  url(../../img/bg-main-desktop.png)
+  @media screen and (min-width: 1024px) {
+    background: -15em -15em  url(../../img/bg-main-desktop.png);
+  }
+  @media screen and (max-width: 600px) {
+    background: 0 -15em no-repeat url(../../img/bg-main-mobile.png)
+  }
 }
 
 #root {
   width: 80%;
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
   padding-top: 2.5em;
   margin: 0 auto;
 }
