@@ -2,6 +2,8 @@
 @import "../helpers/_variables.scss";
 
 body {
+  width: 100%;
+  margin: 0 0;
   font: 20px/34px 'IBM Plex Sans';
   font-weight: 300;
   @media screen and (min-width: 1024px) {
@@ -13,9 +15,9 @@ body {
 }
 
 #root {
-  width: 80%;
-  @media screen and (max-width: 600px) {
-    width: 90%;
+  width: 100%;
+  @media screen and (min-width: 1024px) {
+    width: 80%;
   }
   padding-top: 2.5em;
   margin: 0 auto;
