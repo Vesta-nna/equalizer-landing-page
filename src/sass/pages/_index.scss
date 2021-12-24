@@ -1,0 +1,20 @@
+// VARIABLES
+@import "../helpers/_variables.scss";
+
+body {
+  font: 20px/34px 'IBM Plex Sans';
+  font-weight: 300;
+  background-color: $white;
+  background: -15em -15em  url(../../img/bg-main-desktop.png)
+}
+
+#root {
+  width: 80%;
+  padding-top: 2.5em;
+  margin: 0 auto;
+}
+
+.inline {
+  display: flex;
+}
+
