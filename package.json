@@ -2,12 +2,11 @@
   "name": "equalizer-landing-page",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
-    "sass": "^1.45.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.56.2"
   },
   "scripts": {
     "start": "react-scripts start",
